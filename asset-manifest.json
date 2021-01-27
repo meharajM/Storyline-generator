@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Storyline-generator/static/css/main.1f3e683e.chunk.css",
+    "main.js": "/Storyline-generator/static/js/main.6dc89c63.chunk.js",
+    "main.js.map": "/Storyline-generator/static/js/main.6dc89c63.chunk.js.map",
+    "runtime-main.js": "/Storyline-generator/static/js/runtime-main.0b038d49.js",
+    "runtime-main.js.map": "/Storyline-generator/static/js/runtime-main.0b038d49.js.map",
+    "static/css/2.8c1dcbfa.chunk.css": "/Storyline-generator/static/css/2.8c1dcbfa.chunk.css",
+    "static/js/2.657a159d.chunk.js": "/Storyline-generator/static/js/2.657a159d.chunk.js",
+    "static/js/2.657a159d.chunk.js.map": "/Storyline-generator/static/js/2.657a159d.chunk.js.map",
+    "index.html": "/Storyline-generator/index.html",
+    "precache-manifest.d5c13656cde26d68d0046595f8995cda.js": "/Storyline-generator/precache-manifest.d5c13656cde26d68d0046595f8995cda.js",
+    "service-worker.js": "/Storyline-generator/service-worker.js",
+    "static/css/2.8c1dcbfa.chunk.css.map": "/Storyline-generator/static/css/2.8c1dcbfa.chunk.css.map",
+    "static/css/main.1f3e683e.chunk.css.map": "/Storyline-generator/static/css/main.1f3e683e.chunk.css.map",
+    "static/js/2.657a159d.chunk.js.LICENSE.txt": "/Storyline-generator/static/js/2.657a159d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b038d49.js",
+    "static/css/2.8c1dcbfa.chunk.css",
+    "static/js/2.657a159d.chunk.js",
+    "static/css/main.1f3e683e.chunk.css",
+    "static/js/main.6dc89c63.chunk.js"
+  ]
+}
