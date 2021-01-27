@@ -2,6 +2,7 @@
   "name": "storyline-generator",
   "version": "1.0.0",
   "description": "app to create story line",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -29,6 +30,7 @@
   "bugs": {
     "url": "https://github.com/meharajM/Storyline-generator/issues"
   },
+  "homepage": "https://meharajm.github.io/Storyline-generator/",
   "dependencies": {
     "@ant-design/icons": "^4.4.0",
     "@material-ui/core": "^4.11.0",
