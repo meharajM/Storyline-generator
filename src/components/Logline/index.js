@@ -65,7 +65,6 @@ class Logline extends React.Component {
     setFieldValue = (path, value) => {
         this.setState((prev) => {
             const newState = set(prev, path, value);
-            debugger
             return newState
         });
     }
@@ -82,7 +81,6 @@ class Logline extends React.Component {
     render() {
     const {logline, visible, theme, genre, subGanre, title, isEdit} = this.state;
     const {setVisible, setFieldValue} = this;
-    debugger
     return (<div className="logline-container">
         <Button type="link" onClick={() => setVisible(true)}>
             How to write a logline

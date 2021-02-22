@@ -4,7 +4,6 @@ const TEXT_FILE_LINE_LIMIT = 110;
 function getFormattedText(id, value, content) {
     let newContent = content;
     const [board, boardId, currentElement, eleId, type] = id.split('-');;
-    // debugger
     if (currentElement === elementTypeMap.SCENE_HEADING) {
         if(type === elementSubTypeMap.SUMMARY) {
             newContent = `Scene ${eleId}: ${value} \n`;
@@ -31,7 +30,6 @@ export default function(scriptContent) {
         const formattedContent = getFormattedText(key, value, result);
          result.push(formattedContent);
     }
-    debugger
     const blob = new Blob([...result], {type: "text/plain;charset=utf-8"});
     fileSaver.saveAs(blob, "screenplay.txt");
 }
